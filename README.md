@@ -18,7 +18,7 @@ An AI-powered backend service that analyzes user-reported symptoms and predicts 
 
 🧪 Easy to test with Postman / frontend apps
 
-The model used in this has been depricated. The team is the process to fix it.
+The model used in this has been depricated.
 
 
 🛠️ Tech Stack

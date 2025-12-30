@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Symptom Checker</title>
+  <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <h2>Symptom Checker AI</h2>
+    <ul>
+      <li><a href="#check">Check Symptoms</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#how">How It Works</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>AI-Powered Healthcare Symptom Checker</h1>
+    <p>Describe your symptoms and get preliminary insights—fast, private, and AI-driven.</p>
+  </section>
+
+  <!-- Symptom Checker Section -->
+  <div class="section" id="check">
+    <h2>Check Your Symptoms</h2>
+    <label for="symptoms">Enter your symptoms below:</label>
+    <textarea id="symptoms" placeholder="e.g., sore throat, fever, chills, fatigue..."></textarea>
+
+    <div class="buttons">
+      <button onclick="submitSymptoms()">Check Symptoms</button>
+      <button onclick="startVoiceInput()">🎤 Use Voice</button>
+    </div>
+
+    <div class="result" id="result">
+      <em>Results will appear here after analysis.</em>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="section" id="about">
+    <h2>About the Tool</h2>
+    <p class="info-block">
+      This symptom checker uses advanced AI and natural language processing to provide possible conditions based on your inputs.
+    </p>
+  </div>
+
+  <!-- How It Works Section -->
+  <div class="section" id="how">
+    <h2>How It Works</h2>
+    <p class="info-block">
+      1. You enter or speak your symptoms.<br/>
+      2. The system analyzes the symptoms using AI (connected via backend APIs).<br/>
+      3. It returns a list of possible conditions and recommended urgency levels.<br/>
+    </p>
+  </div>
+
+  <footer>
+    &copy; 2025 Symptom Checker AI | For educational and preliminary use only
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

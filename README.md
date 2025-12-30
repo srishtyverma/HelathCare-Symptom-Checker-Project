@@ -29,16 +29,3 @@ Environment	dotenv
 API	REST
 Security	CORS
 Data	ICD-9 Codes
-📂 Project Structure
-healthcare-symptom-checker/
-│
-├── app.py                  # Flask API entry point
-├── ai_model/
-│   ├── predict_icd.py      # AI logic (symptom extraction & prediction)
-│   ├── icd9.txt            # ICD-9 code mapping file
-│   ├── .env                # API keys (NOT pushed to GitHub)
-│   └── __init__.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore

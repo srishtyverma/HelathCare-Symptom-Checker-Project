@@ -20,6 +20,11 @@ An AI-powered backend service that analyzes user-reported symptoms in natural la
 
 ---
 
+<img width="527" height="250" alt="image" src="https://github.com/user-attachments/assets/a7a032ee-63a2-42ab-b27e-e0043911e974" />
+
+---
+
+
 ## 🛠️ Tech Stack
 
 | Category      | Technology                     |
